@@ -1,25 +1,25 @@
--- Actors Table
+-- 🎭 Actors Table
 
-CREATE TABLE Actors(
+CREATE TABLE Actors (
     id INT PRIMARY KEY,
     name VARCHAR(50) NOT NULL,
     age INT
 );
 
--- Movies Table
+-- 🎥 Movies Table
 
-CREATE TABLE Movies(
+CREATE TABLE Movies (
     id INT PRIMARY KEY,
     title VARCHAR(100) NOT NULL,
     year INT
 );
 
--- Sample Data
+-- ✨ Sample Data
 
-INSERT INTO Actors(id, name, age) VALUES
-(1, Tom Hanks, 23)
-(2, Scarlett Johansson, 34);
+INSERT INTO Actors (id, name, age) VALUES
+(1, 'Tom Hanks', 66),
+(2, 'Scarlett Johansson', 38);
 
-INSERT INTO Movies(id, title, year) VALUES
-(1, Test Movie, 2020)
-(2, Movie Test, 2024);
+INSERT INTO Movies (id, title, year) VALUES
+(101, 'Forrest Gump', 1994),
+(102, 'Lost in Translation', 2003);
