@@ -87,9 +87,7 @@ VALUES
 ('Alpha Quantum Workstation', 3252, 8568.00),
 ('Delta 16-Core Neural Engine', 6791, 10342.00);
 
-
 -- ASSIGNMENT QUERIES
-
 -- Q1: Retrieve checkNumber, paymentDate, and amount
 SELECT checkNumber, paymentDate, amount
 FROM payments;
